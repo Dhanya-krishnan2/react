@@ -6,7 +6,7 @@ const ncp = require('ncp').ncp;
 const {existsSync} = require('fs');
 const exec = require('child_process').exec;
 const {join} = require('path');
-
+// here we are usng path npm package and naming them as jon
 const reactUrl = 'https://github.com/facebook/react.git';
 
 function cleanDir() {
