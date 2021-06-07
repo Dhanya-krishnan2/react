@@ -49,6 +49,7 @@ ReactDOM.render(
   document.getElementById('container')
 );
 ```
+// in the above example  we are passing a destructed properties from the parent components, this is another way of making use of props.
 
 This example will render "Hello Taylor" into a container on the page.
 
